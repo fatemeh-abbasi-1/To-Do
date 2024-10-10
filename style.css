@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(9, 9, 9);
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  max-width: 2000px;
+}
+/* main */
+.moon {
+  width: 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.sun {
+  width: 2.5rem;
+  margin-left: 4rem;
+  margin-top: -2rem;
+  /* margin-top: 1rem; */
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 38rem;
+  background-color: rgb(9, 9, 9);
+  margin-top: 0;
+  padding-top: 0.5rem;
+  text-align: center;
+  max-width: 2000px;
+}
+h1 {
+  color: white;
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+.input-icon {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-left: 5px;
+}
+.icon {
+  background-color: rgb(9, 9, 9);
+  width: 5rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: 2.2rem;
+  border-radius: 3px;
+  text-align: center;
+  display: flex;
+}
+.input {
+  margin-top: 2.3rem;
+  width: 20rem;
+  height: 2.8rem;
+  border-radius: 1rem;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: rgb(68, 66, 68);
+  color: white;
+  margin-right: 2rem;
+}
+.plus {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 0.3rem;
+  margin-left: -1rem;
+  margin-right: 0.3rem;
+}
+.tick_edit {
+  height: 3rem;
+  width: 3rem;
+  margin-top: 0.3rem;
+  margin-left: -2rem;
+  margin-right: 2rem;
+}
+.hidden2 {
+  display: none;
+}
+.works-list {
+  background-color: rgb(68, 66, 68);
+  width: 36rem;
+  /* min-height: 4rem; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  min-height: 3rem;
+  max-height: 18rem;
+  padding: 8px;
+}
+.hidden1 {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.darrk {
+  background-color: rgb(68, 66, 68);
+}
+.works {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.8rem;
+  padding-left: 1rem;
+  background-color: rgb(68, 66, 68);
+  border-radius: 0.7rem;
+  height: 2rem;
+  padding-bottom: 2.5rem;
+}
+.info-work {
+  font-weight: 500;
+  font-size: 1.1rem;
+  /* margin-right: 22rem; */
+  color: rgb(249, 244, 244);
+  margin-top: -0.3rem;
+}
+.line {
+  text-decoration: line-through;
+}
+#checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+.check_info {
+  display: flex;
+}
+.pencil {
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+}
+.trash {
+  width: 30px;
+  height: 30px;
+}
+/* main */
+@media screen and (max-width: 900px) {
+  .input {
+    width: 15rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .works-list {
+    width: 30rem;
+  }
+  .tick_edit {
+    margin-left: -1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .works-list {
+    width: 22rem;
+  }
+  .input {
+    width: 12rem;
+    font-size: 1rem;
+  }
+  .tick_edit {
+    margin-right: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
